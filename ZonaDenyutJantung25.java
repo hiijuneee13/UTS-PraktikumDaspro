@@ -4,7 +4,7 @@ public class ZonaDenyutJantung25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Masukkan usia (10-100): ");
+        System.out.print("Masukkan usia (10-100) : ");
         int usia = sc.nextInt();
         System.out.print("Masukkan detak jantung saat latihan (HR): ");
         int HR = sc.nextInt();
