@@ -14,15 +14,15 @@ public class ZonaDenyutJantung25 {
 
         String kategori;
         if (persenMHR < 50) {
-            kategori = "Sangat ringan – Pemanasan, manfaat minimal.";
+            kategori = "Sangat ringan Pemanasan, manfaat minimal.";
         } else if (persenMHR < 60) {
-            kategori = "Ringan – Peningkatan dasar kebugaran.";
+            kategori = "Ringan Peningkatan dasar kebugaran.";
         } else if (persenMHR < 70) {
-            kategori = "Sedang – Zona aerobik nyaman.";
+            kategori = "Sedang Zona aerobik nyaman.";
         } else if (persenMHR <= 85) {
-            kategori = "Kuat – Meningkatkan kapasitas kardiorespirasi.";
+            kategori = "Kuat Meningkatkan kapasitas kardiorespirasi.";
         } else {
-            kategori = "Sangat berat – Berisiko bagi pemula, batasi durasi.";
+            kategori = "Sangat berat Berisiko bagi pemula, batasi durasi.";
         }
 
         System.out.println("\n=== Hasil Evaluasi ===");
