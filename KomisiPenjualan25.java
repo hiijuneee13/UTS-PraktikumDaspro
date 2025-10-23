@@ -10,8 +10,8 @@ public class KomisiPenjualan25 {
         System.out.print("Masukkan rating (1-100): ");
         int rating = sc.nextInt();
 
-        System.out.print("Apakah memiliki sertifikasi profesional? (ya/tidak): ");
-        String sertifikasi = sc.next().toLowerCase();
+        System.out.print("Apakah memiliki sertifikasi profesional? (Ya/Tdak): ");
+        String sertifikasi = sc.next();
 
         double persenKomisi = 0;
         double bonus = 0;
