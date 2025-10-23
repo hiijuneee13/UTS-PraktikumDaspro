@@ -17,9 +17,7 @@ public class BilanganTerkecil25 {
 
         System.out.println("\nBilangan terkecil adalah: " + terkecil);
 
-        if ((a == terkecil && b == terkecil) || 
-            (a == terkecil && c == terkecil) || 
-            (b == terkecil && c == terkecil)) {
+        if ((a == terkecil && b == terkecil) || (a == terkecil && c == terkecil) || (b == terkecil && c == terkecil)) {
             System.out.println("Ada beberapa angka yang sama dan merupakan nilai terkecil.");
         }
 
